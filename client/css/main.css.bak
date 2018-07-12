@@ -1,0 +1,25 @@
+body, html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.font_baloo {
+    font-family: 'Baloo', cursive;
+}
+
+#translate-button{
+    display: none;
+}
+
+@media (min-width: 550px){
+    #translate-button-mobile{
+        display:none;
+    }
+
+    #translate-button{
+        display: block;
+    }
+}
